@@ -19,7 +19,7 @@ jobs:
       - name: Build and push the Docker image
         uses: docker/build-push-action@v5
         with:
-          context: "{{defaultContext}}"
+          context: .
           file: Backend/IdentityService/Dockerfile
           push: true
           tags: islamadel2021/identity-svc:latest
