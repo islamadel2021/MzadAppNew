@@ -1,0 +1,14 @@
+"use client";
+import React from "react";
+import { Toaster } from "react-hot-toast";
+
+export default function ToastProvider() {
+  return (
+    <Toaster
+      position="bottom-right"
+      toastOptions={{
+        duration: 2000
+      }}
+    />
+  );
+}

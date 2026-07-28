@@ -1,0 +1,8 @@
+﻿namespace MzadService.Entities;
+
+public enum Status
+{
+    Live,
+    Finished,
+    ReserveNotMet
+}

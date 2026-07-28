@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/Backend/">
+    <File Path="../../../home/6-Advanced .NET Full-Stack Project Using Microservices And Docker Course/Advanced .NET Full-Stack Project Course/17-Publishing App To Hosted Kubernetes Cluster (Internet)/190-End Of The Course/MzadApp/docker-compose.yml" />
+    <Project Path="Contracts/Contracts.csproj" Id="deaa63af-a6e3-4c4e-9bc1-ac5638b73935" />
+    <Project Path="FilterService/FilterService.csproj" />
+    <Project Path="GatewayService/GatewayService.csproj" Id="4babec84-bb26-431f-9842-cf5e123c9460" />
+    <Project Path="IdentityService/IdentityService.csproj" Id="a993ed49-efae-4f35-b896-fc6be6a4ec20" />
+    <Project Path="MzadService/MzadService.csproj" />
+    <Project Path="NotificationService/NotificationService.csproj" Id="3178164d-31e8-4183-a10e-130ecff50290" />
+    <Project Path="TenderService/TenderService.csproj" Id="0f2374c8-5a30-4899-a17c-bb68fedc3b33" />
+  </Folder>
+  <Folder Name="/Tests/">
+    <Project Path="MzadService.IntegrationTests/MzadService.IntegrationTests.csproj" Id="bd227633-7294-400f-8ed3-17db195d504d" />
+    <Project Path="MzadService.UnitTests/MzadService.UnitTests.csproj" Id="f6d21f09-9e6b-465e-9875-872671174436" />
+  </Folder>
+</Solution>

@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option csharp_namespace = "MzadService";
+
+service GrpcMzad {
+    rpc GetMzad (GetMzadRequest) returns (GrpcMzadResponse);
+}
+
+message GetMzadRequest {
+    string id = 1;
+}
+
+message GrpcMzadModel {
+    string id = 1;
+    string seller = 2;
+    string mzadEnd = 3;
+    int32 reservePrice = 4;
+}
+
+message GrpcMzadResponse {
+    GrpcMzadModel Mzad = 1;
+}

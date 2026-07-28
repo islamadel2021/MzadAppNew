@@ -1,0 +1,6 @@
+@MzadService_HostAddress = http://localhost:5043
+
+GET {{MzadService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
